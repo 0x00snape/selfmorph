@@ -1,5 +1,4 @@
 #[link_section = "ar.p"]
-#[used]
 static mut VALUE: u32 = 0;
 
 use object::{File, Object, ObjectSection};
